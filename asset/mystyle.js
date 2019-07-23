@@ -15,7 +15,7 @@ function showSlides(n) {
   var dots = document.getElementsByClassName("dot");
   
   // Change title dynamically
-  if (n % 2) {document.title = "Deep 360 Pilot: Learning a Deep Agent for Piloting through 360° Sports Video";}
+  if (n % 2) {document.title = "Joint Monocular 3D Detection and Tracking";}
   else {document.title = "Tell Me Where to Look: Investigating Ways for Assisting Focus in 360° Video";}
   
   if (n > slides.length) {slideIndex = 1} 
